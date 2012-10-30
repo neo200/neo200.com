@@ -30,8 +30,9 @@ body.contact_us .nav .contact_us > a
 .header {
   position: relative;
   padding: 40px 0;
-  background: #494949 url("/images/neo_logo.png") no-repeat right;
-  color: white;
+  background: #494949 url("/images/neo_night.jpg") no-repeat right;
+  background-size: cover;
+  color: #1111;
 }
 
 .header h1 {
