@@ -1,0 +1,82 @@
+body{
+  padding-top: 40px;
+}
+
+body.index .nav .index > a,
+body.news .nav .news > a
+{
+  color: white;
+  background-color: #111111;
+}
+
+.sticky{
+  position: relative;
+  padding-top: 10px;
+}
+
+.fixed {
+  position: fixed;
+  top: 40px;
+}
+
+.icon-chevron-right {
+  float: right;
+}
+
+.header {
+  position: relative;
+  padding: 40px 0;
+  background: #494949 url("/images/neo_logo.png") no-repeat right;
+  color: white;
+}
+
+.header h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.subhead h1 {
+  font-size: 50px;
+}
+
+.anchor:before {
+  content:"";
+  display:block;
+  height:40px; /* fixed header height*/
+  margin:-40px 0 0; /* negative fixed header height */
+}
+
+@media (max-width: 979px) {
+
+  body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .navbar-fixed-top {
+    margin-bottom: 0px;
+  }
+
+  .fixed {
+    top: 0px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .fixed {
+    position: relative;
+    top: 0;
+    padding-top: 10px;
+  }
+
+  .header {
+    margin-right: -20px;
+    padding-right: 20px;
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+
+}
