@@ -3,7 +3,11 @@ body{
 }
 
 body.index .nav .index > a,
-body.news .nav .news > a
+body.building .nav .building > a,
+body.residents .nav .residents > a,
+body.community .nav .community > a,
+body.location .nav .location > a,
+body.contact_us .nav .contact_us > a
 {
   color: white;
   background-color: #111111;
